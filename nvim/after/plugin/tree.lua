@@ -34,4 +34,9 @@ local function open_nvim_tree()
     require("nvim-tree.api").tree.open()
 end
 
+local function close_nvim_tree()
+    -- close tree
+    require("nvim-tree.api").tree.close()
+end
+
 open_nvim_tree()

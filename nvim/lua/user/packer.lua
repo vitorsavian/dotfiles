@@ -55,6 +55,15 @@ return require('packer').startup(function(use)
 	  requires = { "nvim-lua/plenary.nvim" }
   }
 
+  -- Nvim-gruvbox
+  use {
+	  "ellisonleao/gruvbox.nvim",
+  }
+
+  use {
+	  "rebelot/kanagawa.nvim",
+  }
+
   -- Tree
   use {
 	  'nvim-tree/nvim-tree.lua',

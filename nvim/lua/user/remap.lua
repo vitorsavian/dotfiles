@@ -48,3 +48,11 @@ vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+
+vim.keymap.set("n", "<leader>to", function()
+    require("nvim-tree.api").tree.open()
+end)
+
+vim.keymap.set("n", "<leader>tp", function()
+    require("nvim-tree.api").tree.close()
+end)
