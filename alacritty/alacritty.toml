@@ -1,0 +1,9 @@
+[shell]
+program = "/bin/zsh"
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.94
+
+[font]
+normal = { family = "GeistMono Nerd Font", style = "Regular" }
